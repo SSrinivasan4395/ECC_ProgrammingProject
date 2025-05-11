@@ -1,5 +1,13 @@
 """
 Movie Theater Ticket System
+---------------------------
+This project shows list of movies show in the theaters.
+Once the user selects a movie, shows the choice of the day that user want to purchase for.
+Based on user's choice of the day, shows the show times. For the current day it will display only future shows times that are left for the day.
+Get the number of tickets that the user wants under each category Adult/Child/Senior, calculates the price and reduce the number of available seats in the system.
+Calculate price based on Peak day or Normal day (10% more from base price), Child 30% discount and Senior 25% discount and 6% tax on the total order.
+Monday-Thursday are normal days. Friday, Saturday and Sunday are Peak rate days.
+Finally it will display movie ticket summary on the screen.
 """
 
 import datetime
